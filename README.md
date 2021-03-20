@@ -1,7 +1,7 @@
 # To-Do List WebApp
-A simple To-Do WebApp with express.js [URL](https://todo-list.alexros.repl.co).
+A simple To-Do WebApp with express.js -> [URL](https://todo-list.alexros.repl.co).
 
-With her own API [URL](https://alesrox.gitbook.io/to-do-api/).
+With her own API -> [URL](https://alesrox.gitbook.io/to-do-api/).
 
 # Tecnologies Used
 1. Server: [Node.js](https://nodejs.org) & [Express.js](https://expressjs.com).
