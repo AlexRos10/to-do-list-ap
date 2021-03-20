@@ -115,7 +115,11 @@ app.post('/register', async(req, res) => {
 });
 
 app.get('/login', (req, res) => {
-    res.render('client/login.ejs');
+    if (req.session.user) {
+        res.redirect('/');
+    } else {
+        res.render('client/login.ejs');
+    }
 });
 
 app.post('/login', async(req, res) => {
