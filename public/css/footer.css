@@ -1,0 +1,38 @@
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.div-links {
+	display: flex;
+}
+
+.links {
+	background: #eee;
+	width: 49%;
+	padding: 12px 8px 12px 40px;
+	font-size: 18px;
+	text-decoration: none;
+	color: black;
+}
+
+.links:hover {
+	background: #ddd;
+}
+
+.flex-item {
+	flex: 1;
+	background: rgb(231, 231, 231);
+	text-align: justify-center;
+}
+
+.flex-item p {
+	transform: translate(-7.5%);
+}
+
+.copyright {
+	padding: 20px;
+}

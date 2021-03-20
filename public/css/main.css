@@ -1,0 +1,166 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: #FAFAFA;
+	font-family: arial, helvetica, serif;
+	font-size: 16px;
+}
+
+.wrap {
+	margin: auto;
+	max-width: 800px;
+	width: 90%;
+}
+
+.header {
+	background-color: #4A64E4;
+	padding: 10px;
+	color: #fff;
+	text-align: center;
+}
+
+.principal {
+	background: #4A64E4;
+	color: #fff;
+	padding: 50px 0;
+	width: 100%;
+}
+
+.principal .form {
+	color: #212121;
+	text-align: center;
+}
+
+.principal .form .input {
+	margin-bottom: 20px;
+	padding: 17px;
+	width: 75%;
+	border: 1px solid #000000;
+}
+
+.principal .form .botton {
+	background: none;
+	border: 1px solid rgb(0, 0, 0);
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	padding: 15px;
+}
+
+/* .tasks {
+	overflow-y: scroll;
+	height: 275px;
+} */
+
+.wrap-list {
+	margin: auto;
+	max-width: 800px;
+	width: 90%;
+}
+
+.list {
+	margin: 0;
+	padding-top: 20px;
+}
+
+.list li {
+	cursor: pointer;
+	list-style: none;
+	position: relative;
+	padding: 12px 8px 12px 30px;
+	background: #eee;
+	font-size: 18px;
+	transition: 0.2s;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+@media only screen and (max-width: 700px) {
+	.list li {
+		font-size: 14px;
+	}
+}
+
+.list li:nth-child(odd) {
+	background: #f9f9f9;
+}
+
+.list li:hover {
+	background: #ddd;
+}
+
+.close {
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 12px 16px 12px 16px;
+	background: transparent; 
+	border: none;
+	height: 100%;
+}
+
+.close:hover {
+	background-color: rgb(228, 74, 74);
+	color: white;
+}
+
+.close:hover button {
+	color: white;
+}
+
+/* @media only screen and (max-width: 415px) {
+	.tasks {
+		overflow-y: scroll;
+		height: 400px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.tasks {
+		overflow-y: scroll;
+		height: 300px;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.tasks {
+		overflow-y: scroll;
+		height: 225px;
+	}
+}
+
+@media only screen and (max-width: 545px) and (min-height: 720px) {
+	.tasks {
+		overflow-y: scroll;
+		height: 380px;
+	}
+}
+
+@media only screen and (max-width: 415px) and (min-height: 820px) {
+	.tasks {
+		overflow-y: scroll;
+		height: 475px;
+	}
+}
+
+@media only screen and (max-width: 375px) and (min-height: 810px) {
+	.tasks {
+		overflow-y: scroll;
+		height: 450px;
+	}
+}
+
+@media only screen and (max-width: 768px) and (min-height: 1024px) {
+	.tasks {
+		overflow-y: scroll;
+		height: 675px;
+	}
+} */
